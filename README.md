@@ -4,6 +4,10 @@ A reimplementation and reimagining of the Stickies application for OS X, but in 
 
 (Very, very much a work in progress.)
 
+## Requirements
+
+- Node 6.0 or later.
+
 ## Rocking and/or Rolling
 
 To install the dependencies:
