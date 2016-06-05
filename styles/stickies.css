@@ -1,0 +1,42 @@
+.sticky-notes {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  background-color: #9ea7aa;
+  background-image: radial-gradient(0% 0%, rgb(189, 195, 199), rgb(127, 140, 141));
+}
+
+.sticky-note {
+  position: absolute;
+  background-color: rgba(241, 196, 15,1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s;
+}
+
+.sticky-note.moving {
+  transform: rotate(-3deg);
+}
+
+.note-controls {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.note-controls fieldset {
+  border: none;
+  padding: 0;
+}
+
+.note-controls label {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.note-controls input {
+  width: 3em;
+  background-color: inherit;
+  border: none;
+  text-align: center;
+}
