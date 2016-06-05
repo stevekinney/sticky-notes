@@ -1,6 +1,10 @@
 # Sticky Notes
 
+A reimplementation and reimagining of the Stickies application for OS X, but in React.
+
 (Very, very much a work in progress.)
+
+## Rocking and/or Rolling
 
 To install the dependencies:
 
